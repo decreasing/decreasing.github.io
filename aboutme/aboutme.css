@@ -1,0 +1,324 @@
+.verticalLine{
+    line-height: 1.7;
+    padding: 0 25px;
+    text-align: left;
+    border-left: solid 3px #253b40;
+    flex: 2;
+    }
+body{
+      color: #3c3c3c;
+      background-color: #f0f0eb;
+  }
+section {
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+    background:#e6e6e6;
+    width:50%;
+    padding: 2%;
+  }
+h2{
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #1d3136;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+  }
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #1d3136;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+  }
+blockquote{
+  font-size: 1.1rem;
+  font-family: 'Rubik', sans-serif;
+  }
+h1{
+    font-size: 50px;
+    font-family: 'Cabin', sans-serif;
+    color:#1d3136;
+  }
+i{
+  font-size: 15px;
+}
+
+
+.polaroid{
+    width: 450px;
+    height: 333px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    background-color: #e6e6e6;
+    padding: 30px 5px 110px 5px;
+  }
+.polaroid img{
+    width: 80%;
+  }
+.caption{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 15px;
+  }
+.polaroid:before,
+.polaroid:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(102,102,102,0.6);
+    transform: rotate(-40deg);
+  }
+.polaroid:before{
+    top: 3px;
+    left: -55px;
+  }
+.polaroid:after{
+    bottom: 3px;
+    right: -60px;
+  }
+
+
+
+.polaroid2{
+    width: 356px;
+    height: 323px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 820px;
+    right: 250px;
+    background-color: #e6e6e6;
+    padding: 30px 0px 110px 0px;
+  }
+.polaroid2 img{
+    width: 50%;
+  }
+.caption2{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 15px;
+  }
+.polaroid2:before,
+.polaroid2:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(102,102,102,0.6);
+    transform: rotate(-40deg);
+  }
+.polaroid2:before{
+    top: 3px;
+    left: -55px;
+  }
+.polaroid2:after{
+    bottom: 3px;
+    right: -60px;
+  }
+
+
+  .polaroid3{
+    width: 400px;
+    height: 323px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 1330px;
+    right: 220px;
+    background-color: #e6e6e6;
+    padding: 30px 5px 110px 5px;
+  }
+.polaroid3 img{
+    width: 65%;
+  }
+.caption3{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 15px;
+  }
+.polaroid3:before,
+.polaroid3:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(102,102,102,0.6);
+    transform: rotate(-40deg);
+  }
+.polaroid3:before{
+    top: 3px;
+    left: -55px;
+  }
+.polaroid3:after{
+    bottom: 3px;
+    right: -60px;
+  }
+
+
+  .polaroid4{
+    width: 400px;
+    height: 323px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 1840px;
+    right: 200px;
+    background-color: #e6e6e6;
+    padding: 30px 5px 110px 5px;
+  }
+.polaroid4 img{
+    width: 65%;
+  }
+.caption4{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 15px;
+  }
+.polaroid4:before,
+.polaroid4:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(102,102,102,0.6);
+    transform: rotate(-40deg);
+  }
+.polaroid4:before{
+    top: 3px;
+    left: -55px;
+  }
+.polaroid4:after{
+    bottom: 3px;
+    right: -60px;
+  }
+
+
+  .polaroid5{
+    width: 370px;
+    height: 310px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 2350px;
+    right: 220px;
+    background-color: #e6e6e6;
+    padding: 30px 5px 110px 5px;
+  }
+.polaroid5 img{
+    width: 54%;
+  }
+.caption5{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 15px;
+  }
+.polaroid5:before,
+.polaroid5:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(102,102,102,0.6);
+    transform: rotate(-40deg);
+  }
+.polaroid5:before{
+    top: 3px;
+    left: -55px;
+  }
+.polaroid5:after{
+    bottom: 3px;
+    right: -60px;
+}
+
+.polaroid6{
+    width: 370px;
+    height: 310px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 2840px;
+    right: 220px;
+    background-color: #e6e6e6;
+    padding: 30px 5px 110px 5px;
+  }
+.polaroid6 img{
+    width: 65%;
+  }
+.caption6{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 15px;
+  }
+.polaroid6:before,
+.polaroid6:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(102,102,102,0.6);
+    transform: rotate(-40deg);
+  }
+.polaroid6:before{
+    top: 3px;
+    left: -55px;
+  }
+.polaroid6:after{
+    bottom: 3px;
+    right: -60px;
+}
+
+.polaroid7{
+    width: 370px;
+    height: 310px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 3350px;
+    right: 220px;
+    background-color: #e6e6e6;
+    padding: 30px 5px 110px 5px;
+  }
+.polaroid7 img{
+    width: 56%;
+  }
+.caption7{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 15px;
+  }
+.polaroid7:before,
+.polaroid7:after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(102,102,102,0.6);
+    transform: rotate(-40deg);
+  }
+.polaroid7:before{
+    top: 3px;
+    left: -55px;
+  }
+.polaroid7:after{
+    bottom: 3px;
+    right: -60px;

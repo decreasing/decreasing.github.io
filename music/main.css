@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*
+{
+  font-family: raleway;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  background-image: url("media/picture/bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: fixed;
+  overflow-x: hidden;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-weight: 10px;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+}
+
+.genre {
+  width: 30%;
+  height: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+  text-shadow: 3px 3px 10px black;
+  font-family: 'Maven Pro', Arial;
+  letter-spacing: -2px;
+  font-size: 10vh;
+  color: white;  
+}
+.genre:hover {
+  -webkit-transition: .4s;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
+  text-shadow: 0px 0px 20px white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.card{
+    width: 100%;
+    max-width: 315px;
+    margin: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 3px 6px 29px -1px rgba(0,0,0,0.75);
+}
+
+.card:nth-child(1){
+  background-image: url("media/picture/wallows.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card:nth-child(2){
+  background-image: url("media/picture/benee.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card:nth-child(3){
+  background-image: url("media/picture/lovelost.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card2{
+    width: 100%;
+    max-width: 315px;
+    margin: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 3px 6px 29px -1px rgba(0,0,0,0.75);
+}
+.card2:nth-child(1){
+  background-image: url("media/picture/88rising.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card2:nth-child(2){
+  background-image: url("media/picture/famousdex.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card2:nth-child(3){
+  background-image: url("media/picture/introvert.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.card3{
+    width: 100%;
+    max-width: 315px;
+    margin: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 3px 6px 29px -1px rgba(0,0,0,0.75);
+}
+
+.card3:nth-child(1){
+  background-image: url("media/picture/steviewonder.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card3:nth-child(2){
+  background-image: url("media/picture/maroon5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.card3:nth-child(3){
+  background-image: url("media/picture/jayesslee.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.card img
+{
+  width: 75%;
+  border-radius: 300px;
+  animation: rotate 5s linear infinite;
+  transition: 0.4s all;
+  margin-top: -20px;
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
+}
+.card2 img
+{
+  width: 75%;
+  border-radius: 300px;
+  animation: rotate 5s linear infinite;
+  transition: 0.4s all;
+  margin-top: -20px;
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
+}
+.card3 img
+{
+  width: 75%;
+  border-radius: 300px;
+  animation: rotate 5s linear infinite;
+  transition: 0.4s all;
+  margin-top: -20px;
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
+}  
+
+
+@keyframes rotate
+{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+h2
+{
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+}
+
+audio
+{
+  width: 90%;
+  margin-top: 12px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  outline: none;
+}
+
+@media only screen and (max-width: 350px) {
+  .card {
+    width: 95%;
+  }
+}
+@keyframes fade {
+   0%   { opacity: 0;}
+   100% {opacity: 1;}
+}
+.fadegenre {
+  animation-timing-function:ease-in;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  opacity: 0; 
+}
+.fadesongs {
+  animation-timing-function:ease-in;
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+  opacity: 0; 
+}
+
+@keyframes fadebg {
+  0%   { opacity: 0;}
+  100% {opacity: 1;}
+}  
+.bgfade {
+   animation-timing-function:ease-in;
+  animation-name: fadebg;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}

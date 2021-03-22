@@ -1,0 +1,157 @@
+  @keyframes fadebg {
+  0%   { opacity: 0;}
+  100% {opacity: 0.4;}
+}  
+.bgfade {
+   animation-timing-function:ease-in;
+  animation-name: fadebg;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+   @keyframes fadetext {
+   0%   { opacity: 0;}
+   100% {opacity: 1;}
+}
+.fadetitle {
+  animation-timing-function:ease-in;
+  animation-name: fadetext;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  opacity: 0; 
+}
+.fadelinks {
+  animation-timing-function:ease-in;
+  animation-name: fadetext;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+  opacity: 0; 
+}
+a {
+    text-decoration: none;
+}
+body {
+  width:100%;
+  height: 100%;
+  background-color: black;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}  
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100vw;
+  height: 100vw;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+.wrapper{   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: auto;
+  margin: auto;
+  line-height: 0.7;
+}
+.title {
+  width: auto;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+  text-shadow: 3px 3px 10px black;
+  font-family: 'Maven Pro', Arial;
+  letter-spacing: -2px;
+  font-size: 10vh;
+  color: white;  
+}
+.title:hover {
+  -webkit-transition: .4s;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
+  text-shadow: 0px 0px 20px white;
+}
+.menu {
+  display: flex;
+  width: auto;
+  height: auto;
+  line-height: 30px;
+}
+.link {
+  width: auto;
+  color: white;
+  height: auto;
+  font-size: 3.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: table-cell;
+  padding: 10px 0px 15px 0px;
+  text-shadow: 1px 1px 5px black;
+}
+.credits {
+  position: absolute;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  bottom: 2vh;
+  opacity: 0;
+}
+span, .editor {
+  font-family: 'Maven Pro', Arial;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.5vh;
+  color: white;
+  opacity: 0.9;
+}
+/* Overline From Center */
+.hvr-overline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-overline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  top: 4px;
+  bottom: 20px;
+  background: #9a50cc;
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+.grow { 
+    transition: all .3s ease-in-out;
+}
+.grow:hover { 
+    transform: scale(1.15);
+}

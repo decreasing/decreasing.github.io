@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+body{
+	font-family: 'Lexend', sans-serif;
+	color: black;
+	background: linear-gradient(to right, #232526, #414345);
+}
+img{
+	width: 15%;
+	height: 15%;
+	transition: transform .2s;
+	margin-left: 50px;
+	margin-top: 10px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	filter: grayscale(100%);
+}
+img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.2);
+	filter: grayscale(0%);
+}
+h1{
+	font-size: 65px;
+	color: white;
+	text-align: center;
+}
+h1:hover{
+	-webkit-transition: .4s;
+  	transition-duration: .4s;
+  	transition-timing-function: ease-out;
+  	text-shadow: 0px 0px 20px white;
+}
+h2{
+	font-size: 35px;
+	color: white;
+}
+h2:hover{
+	-webkit-transition: .4s;
+  	transition-duration: .4s;
+  	transition-timing-function: ease-out;
+  	text-shadow: 0px 0px 20px white;
+}
+h3{
+	color: white;
+	text-align: center;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+.imgcontainer{
+	margin-top: 100px;
+	text-align: center;
+}
+@keyframes fade {
+   0%   { opacity: 0;}
+   100% {opacity: 1;}
+}
+.fadetitle {
+  animation-timing-function:ease-in;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  opacity: 0; 
+}
+.bg{
+	background-color: #232526;
+}
